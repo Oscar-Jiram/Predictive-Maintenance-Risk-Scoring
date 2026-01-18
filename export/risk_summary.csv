@@ -1,0 +1,4 @@
+risk_level,units,failure_rate_pct,lift_vs_baseline
+Low,3333,1.29,0.38
+Medium,3334,1.56,0.46
+High,3333,7.32,2.16
