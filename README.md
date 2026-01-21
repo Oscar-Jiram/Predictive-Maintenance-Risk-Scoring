@@ -174,10 +174,21 @@ _This view reveals differences in reliability across machine types, supporting d
 
 ## Repository Structure
 
-predictive-maintenance-risk-scoring/
-│
-├── export/ # Business-ready datasets
-├── outputs/ # Generated plots
-├── predictive_maintenance_risk_score.py
+predictive-maintenance/
+
 ├── README.md
-└── ai4i2020.csv
+
+├── data/
+
+├── src/
+
+├── outputs/
+
+├── assets/
+
+│   ├── risk_level_failure_rate.png
+
+│   ├── failure_by_machine_type.png
+
+│   ├── pareto_failure_modes.png
+
