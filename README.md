@@ -85,9 +85,9 @@ Machines were segmented into:
 ## Executive Dashboard Overview
 *High-level operational KPIs and risk distribution across the fleet.*
 
-<img width="1360" height="556" alt="image" src="https://github.com/user-attachments/assets/752f2fb3-a315-4fa3-8ab0-702f3598921b" />
-
 ![alt text](<Dashboard Pareto Failure Modes.png>)
+
+<img width="1360" height="556" alt="image" src="https://github.com/user-attachments/assets/752f2fb3-a315-4fa3-8ab0-702f3598921b" />
 
 
 _This view summarizes global failure rate, risk distribution, and key operational indicators for decision-makers._
