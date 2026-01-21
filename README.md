@@ -85,7 +85,7 @@ Machines were segmented into:
 ## Executive Dashboard Overview
 *High-level operational KPIs and risk distribution across the fleet.*
 
-![alt-text](./assets/images/Dashboard Predictive Maintenance (1).png "Hover text")
+<img width="1360" height="556" alt="image" src="https://github.com/user-attachments/assets/752f2fb3-a315-4fa3-8ab0-702f3598921b" />
 ![alt text](<Dashboard Pareto Failure Modes.png>)
 
 
@@ -96,7 +96,8 @@ _This view summarizes global failure rate, risk distribution, and key operationa
 ## Risk Segmentation & Failure Rates
 *Understanding how failure probability increases with operational risk.*
 
-![alt-text](./assets/images/Failure Rate by risk level.png "Hover text")
+<img width="1207" height="556" alt="image" src="https://github.com/user-attachments/assets/f5827906-7ab4-4063-9d4f-3fe46fce1468" />
+
 
 _This visualization demonstrates how higher risk scores correlate with significantly increased failure rates._
 
@@ -105,7 +106,8 @@ _This visualization demonstrates how higher risk scores correlate with significa
 ## Failure Modes & Root Causes
 *Identifying dominant failure mechanisms.*
 
-![alt-text](./assets/images/Pareto Analysis of Failures.png "Hover text")
+<img width="1288" height="554" alt="image" src="https://github.com/user-attachments/assets/e17c3e28-02d7-4b51-bb00-eba8e286c51c" />
+
 
 _The Pareto chart highlights which failure types account for the majority of incidents, supporting targeted preventive actions._
 
@@ -114,7 +116,8 @@ _The Pareto chart highlights which failure types account for the majority of inc
 ## Machine Type Performance
 *Comparing reliability across machine categories.*
 
- ![alt-text](./assets/images/Failure Rate by Machine Type.png "Hover text")
+<img width="1250" height="557" alt="image" src="https://github.com/user-attachments/assets/a65b21c9-c9e6-460d-90b5-a62f453dc2c3" />
+
 
 _This view reveals differences in reliability across machine types, supporting differentiated maintenance strategies._
 
