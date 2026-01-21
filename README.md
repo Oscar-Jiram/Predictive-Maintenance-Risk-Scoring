@@ -85,7 +85,9 @@ Machines were segmented into:
 ## Executive Dashboard Overview
 *High-level operational KPIs and risk distribution across the fleet.*
 
-**Insert Tableau Screenshot – Executive Overview here**
+![alt-text](./assets/images/Dashboard Predictive Maintenance (1).png "Hover text")
+![alt text](<Dashboard Pareto Failure Modes.png>)
+
 
 _This view summarizes global failure rate, risk distribution, and key operational indicators for decision-makers._
 
@@ -94,7 +96,7 @@ _This view summarizes global failure rate, risk distribution, and key operationa
 ## Risk Segmentation & Failure Rates
 *Understanding how failure probability increases with operational risk.*
 
-**Insert Tableau Screenshot – Failure Rate by Risk Level here**
+![alt-text](./assets/images/Failure Rate by risk level.png "Hover text")
 
 _This visualization demonstrates how higher risk scores correlate with significantly increased failure rates._
 
@@ -103,7 +105,7 @@ _This visualization demonstrates how higher risk scores correlate with significa
 ## Failure Modes & Root Causes
 *Identifying dominant failure mechanisms.*
 
-**Insert Tableau Screenshot – Pareto of Failure Modes here**
+![alt-text](./assets/images/Pareto Analysis of Failures.png "Hover text")
 
 _The Pareto chart highlights which failure types account for the majority of incidents, supporting targeted preventive actions._
 
@@ -112,7 +114,7 @@ _The Pareto chart highlights which failure types account for the majority of inc
 ## Machine Type Performance
 *Comparing reliability across machine categories.*
 
- **Insert Tableau Screenshot – Failure Rate by Machine Type here**
+ ![alt-text](./assets/images/Failure Rate by Machine Type.png "Hover text")
 
 _This view reveals differences in reliability across machine types, supporting differentiated maintenance strategies._
 
