@@ -28,13 +28,13 @@ The goal of this project is to:
 - Build a **continuous risk score** and **risk-level segmentation**  
 - Identify operating conditions and machine types with higher failure exposure  
 - Deliver insights through a **clear, decision-oriented Tableau dashboard**
-
+<sub>This framework enables maintenance teams to prioritize interventions based on risk rather than reactive failure events.</sub>
 ---
 
 ## Dataset Overview
 - **Source:** AI4I 2020 Predictive Maintenance Dataset  
 - **Observations:** Industrial machine operations  
-- **Features include:**
+- **Key operational variables include:**
   - Temperatures  
   - Torque  
   - Rotational speed  
@@ -51,19 +51,23 @@ Cleaned and business-ready datasets are exported to the `export/` directory.
 ### 1. Data Preparation
 - Duplicate removal  
 - Validation of operational ranges  
-- Feature normalization  
-
+- Feature normalization
+- 
 ### 2. Feature Engineering
 Custom proxies were engineered to represent operational stress:
 - **Temperature Delta:** Process temperature − air temperature  
 - **Power Proxy:** Torque × rotational speed  
-- **Wear Rate Proxy:** Tool wear relative to rotational speed  
+- **Wear Rate Proxy:** Tool wear relative to rotational speed
+  
+<sub>These proxies were designed to approximate mechanical stress under real operating conditions rather than optimize statistical performance.</sub>
 
 ### 3. Risk Scoring Model
 A composite risk score was constructed using normalized features:
 - Torque (40%)  
 - Tool wear (40%)  
-- Power proxy (20%)  
+- Power proxy (20%)
+
+<sub>Weights were selected based on domain relevance and interpretability, prioritizing transparency over model complexity.</sub>  
 
 The score represents **relative operational risk**, not a binary failure prediction.
 
@@ -123,7 +127,8 @@ using quantile-based thresholds.
 - A small number of failure modes explain the majority of failures.  
 - Certain machine types consistently exhibit higher failure rates.  
 - Risk scoring provides earlier insight than binary failure flags alone.  
-- Maintenance prioritization can be improved using risk segmentation.  
+- Maintenance prioritization can be improved using risk segmentation.
+- Overall failure rate increases sharply from low to high risk segments.
 
 ---
 
@@ -146,7 +151,8 @@ using quantile-based thresholds.
 ## Limitations
 - The analysis is based on historical data only.  
 - External factors such as maintenance quality and operator behavior are not included.  
-- The risk score represents relative risk, not exact failure probability.  
+- The risk score represents relative risk, not exact failure probability.
+- Failures represent a relatively rare subset of observations, which limits direct probability estimation.
 
 ---
 
@@ -177,3 +183,10 @@ predictive-maintenance/
 │   ├── risk_level_failure_rate.png
 │   ├── failure_by_machine_type.png
 │   └── pareto_failure_modes.png
+
+```
+---
+## How to Reproduce
+-Run Python script → generates KPIs
+-CSV exported to /export
+-Tableau dashboard connects to exported data
